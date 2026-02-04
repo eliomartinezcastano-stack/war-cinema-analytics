@@ -41,7 +41,7 @@ Variables principales:
 - En décadas recientes, a pesar de una alta intensidad bélica global, la producción de cine bélico disminuye, lo que puede estar relacionado con cambios en los intereses del público, la diversificación de géneros o una transformación en la manera de representar los conflictos en la industria audiovisual.
 
 # Limitaciones
-- La categorización de las películas depende de la clasificación por géneros de TMDB, lo que puede excluir títulos con contenido bélico no etiquetados explícitamente como "War".
+- La categorización de las películas puede excluir títulos con contenido bélico no etiquetados explícitamente como "War".
 
 - La métrica de intensidad bélica se basa en la duración y solapamiento de conflictos, pero no distingue entre tipos de guerra, escalas de violencia o impacto geopolítico.
 
