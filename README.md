@@ -59,5 +59,3 @@ Variables principales:
 4. Ejecutar main_notebook.ipynb
 
 Este proyecto requiere una clave de acceso a la API de TMDB.
-Crea un archivo `.env` en la raíz del proyecto con el siguiente contenido:
-TMDB_READ_TOKEN=tu_token o TMDB_API_KEY=tu_api_key
