@@ -4,7 +4,7 @@ Análisis de la Industria del Cine Bélico: ¿Reflejo o Reacción a los Conflict
 Analizar la correlación histórica entre la intensidad de los conflictos armados globales y la producción cinematográfica del género bélico para identificar patrones en la industria cultural ante crisis internacionales.
 
 ## Datasets
--Cine: Datos extraídos mediante la API de TMDB (The Movie Database). Se consultó el catálogo histórico filtrando por el identificador de géneros para filtrar luego por "War".
+- Cine: Datos extraídos mediante la API de TMDB (The Movie Database). Se consultó el catálogo histórico filtrando por el identificador de géneros para filtrar luego por "War".
 
 - Conflictos: Datos extraídos de Wikipedia (vía web scraping) sobre conflictos armados mundiales, procesados para cuantificar la duración y simultaneidad.
 
