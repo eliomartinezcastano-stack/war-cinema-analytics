@@ -4,20 +4,20 @@ Análisis de la Industria del Cine Bélico: ¿Reflejo o Reacción a los Conflict
 Analizar la correlación histórica entre la intensidad de los conflictos armados globales y la producción cinematográfica del género bélico para identificar patrones en la industria cultural ante crisis internacionales.
 
 ## Datasets
--Cine: Datos extraídos mediante la API de TMDB (The Movie Database). Se consultó el catálogo histórico filtrando por el identificador de géneros para filtrar luego por "War".
+- Cine: Datos extraídos mediante la API de TMDB (The Movie Database).
 
-- Conflictos: Datos extraídos de Wikipedia (vía web scraping) sobre conflictos armados mundiales, procesados para cuantificar la duración y simultaneidad.
+- Conflictos: Datos extraídos de Wikipedia (vía web scraping) sobre conflictos armados mundiales.
 
 Variables principales: 
 - decade: Periodo de 10 años.
 - num_war_movies: Conteo de títulos únicos identificados bajo el género "War".
 - intensity: Suma de años de duración de todos los conflictos de la década.
-- intensity_prev_decade: Métrica de intensidad de la década anterior.
+- intensity_prev_decade: Intensidad de los conflictos de la década anterior.
 
 # Calidad del dato
-- Procesamiento de géneros: Los datos originales de la API contenían códigos numéricos para los géneros. Se implementó un mapeo mediante un diccionario de géneros para transformar estos códigos en etiquetas legibles y asegurar que solo las películas estrictamente categorizadas como "War" formaran parte del análisis.
+- Los datos originales de la API contenían códigos numéricos para los géneros. Mapeo mediante un diccionario de géneros para transformar estos códigos a las categorías y asegurar que solo las películas estrictamente categorizadas como "War" formaran parte del análisis.
 
-- Consistencia: Se limpiaron registros con fechas incompletas para garantizar la precisión de las agrupaciones por décadas.
+- Consistencia: Los registros con fechas incompletas se eliminaron para evitar errores en la agrupación por décadas.
 
 # Preguntas clave
 1. ¿Existe relación directa entre el número de guerras activas y las películas producidas en el mismo periodo?
@@ -41,7 +41,7 @@ Variables principales:
 - En décadas recientes, a pesar de una alta intensidad bélica global, la producción de cine bélico disminuye, lo que puede estar relacionado con cambios en los intereses del público, la diversificación de géneros o una transformación en la manera de representar los conflictos en la industria audiovisual.
 
 # Limitaciones
-- La categorización de las películas depende de la clasificación por géneros de TMDB, lo que puede excluir títulos con contenido bélico no etiquetados explícitamente como "War".
+- La categorización de las películas puede excluir títulos con contenido bélico no etiquetados explícitamente como "War".
 
 - La métrica de intensidad bélica se basa en la duración y solapamiento de conflictos, pero no distingue entre tipos de guerra, escalas de violencia o impacto geopolítico.
 
@@ -59,5 +59,3 @@ Variables principales:
 4. Ejecutar main_notebook.ipynb
 
 Este proyecto requiere una clave de acceso a la API de TMDB.
-Crea un archivo `.env` en la raíz del proyecto con el siguiente contenido:
-TMDB_READ_TOKEN=tu_token o TMDB_API_KEY=tu_api_key
