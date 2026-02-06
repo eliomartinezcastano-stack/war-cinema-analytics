@@ -59,3 +59,5 @@ Variables principales:
 4. Ejecutar main_notebook.ipynb
 
 Este proyecto requiere una clave de acceso a la API de TMDB.
+
+-- Enlace presentación: https://docs.google.com/presentation/d/1NSfIUNiQrXAxfcItPdVzj7eNPED43a7dgLMhb5xAjA4/edit?usp=sharing
