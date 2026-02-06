@@ -61,7 +61,7 @@ def get_movies_by_year(year, max_pages=5):
     return all_movies
                         
 # Función para descragar todo el rango de años elegido
-def fetch_full_history(start_year:1930, end_year=2024):
+def fetch_full_history(start_year=1930, end_year=2024):
     full_data = []
 
     for year in range(start_year, end_year + 1):
